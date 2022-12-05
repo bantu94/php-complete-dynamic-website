@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Back To My Roots</title>
+    <!-- Custom css  -->
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/dashboard.css">
+    <!-- iconscout -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!-- Google fonts   -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- *************************NAVIGATION STARTS*************************** -->
+    <nav>
+      <div class="container nav__container">
+        <a href="index.html" class="nav__logo">GWANGA MUJJE</a>
+        <ul class="nav__items">
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="luganda.html">O'Luganda</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li class="nav__profile">
+            <div class="avatar">
+              <img src="/images/pro.jpg" alt="image">
+            </div>
+            <ul>
+              <li><a href="dashboard.html">Dashboard</a></li>
+              <li><a href="signout.html">Logout</a></li>
+            </ul>
+
+          </li>
+
+        </ul>
+        <button id="open__nav-btn"><i class="uil uil-bars"></i></button>
+        <button id="close__nav-btn"><i class="uil uil-multiply"></i></button>
+      </div>
+    </nav>
+    <!-- *************************NAVIGATION ENDS*************************** -->
+
+
+    <section class="dashboard">
+      <div class="container dashboard__container">
+        <button  id="show__sidebar-btn" class="sidebar__toggle"><i class="uil uil-skip-forward-circle"></i></button>
+        <button  id="hide__sidebar-btn" class="sidebar__toggle"><i class="uil uil-cancel"></i></button>
+
+        <!-- ********************************************aside starts********************************************** -->
+        <aside>
+          <ul>
+            <li>
+              <a href="add-post.html">
+                <i class="uil uil-pen"></i>
+                <h5>Add Post</h5>
+              </a>
+            </li>
+            <li>
+              <a href="dashboard.html" class="active">
+                <i class="uil uil-dashboard"></i>
+                <h5>Manage Posts</h5>
+              </a>
+            </li>
+            <li>
+              <a href="manage-users.html">
+                <i class="uil uil-users-alt"></i>
+                <h5>Manage Users</h5>
+              </a>
+            </li>
+            <li>
+              <a href="add-category.html">
+                <i class="uil uil-package"></i>
+                <h5>Add Category</h5>
+              </a>
+            </li>
+            <li>
+              <a href="manage-categories.html">
+                <i class="uil uil-tag-alt"></i>
+                <h5>Manage Categories</h5>
+              </a>
+            </li>
+          </ul>
+
+        </aside>
+        <!-- ********************************************aside ends********************************************** -->
+
+        <!-- ********************************************main starts********************************************** -->
+        <main>
+          <h2>Manage Posts</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Title</th> 
+                <th>Category</th>
+                <th>Edit</th>
+                <th>Delete</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>Real facts about Kabaka Mwanga of Buganda</td>
+                <td>Bakabaka ba Buganda</td>
+                <td><a href="edit-post.html" class="btn sm warning">Edit</a></td>
+                <td><a href="delete-post.html" class="btn sm danger">Delete</a></td>
+              </tr>
+              <tr>
+                <td>In depth of African tribes and clans</td>
+                <td>Manya ekika kyo</td>
+                <td><a href="edit-post.html" class="btn sm warning">Edit</a></td>
+                <td><a href="delete-post.html" class="btn sm danger">Delete</a></td>
+              </tr>
+              <tr>
+                <td>Recover your origin shape of as a man being</td>
+                <td>Spirituality</td>
+                <td><a href="edit-post.html" class="btn sm warning">Edit</a></td>
+                <td><a href="delete-post.html" class="btn sm danger">Delete</a></td>
+              </tr>
+              <tr>
+                <td>Culture is expressed through many different art forms</td>
+                <td>African Culture</td>
+                <td><a href="edit-post.html" class="btn sm warning">Edit</a></td>
+                <td><a href="delete-post.html" class="btn sm danger">Delete</a></td>
+              </tr>
+    
+            </tbody>
+          </table>
+
+        </main>
+        <!-- ********************************************main ends********************************************** -->
+
+      </div>
+    </section>
+
+  <!-- **************************Footer  starts**********************  -->
+  <footer>
+    <div class="footer__socials">
+      <a href="https://youtube.com" target="_blank"><i class="uil uil-youtube"></i></a>
+      <a href="https://youtube.com" target="_blank"><i class="uil uil-facebook-f"></i></a>
+      <a href="https://youtube.com" target="_blank"><i class="uil uil-instagram-alt"></i></a>
+      <a href="https://youtube.com" target="_blank"><i class="uil uil-linkedin"></i></a>
+      <a href="https://youtube.com" target="_blank"><i class="uil uil-reddit-alien-alt"></i></a>
+    </div>
+    <div class="container footer__container">
+      <article>
+        <h4>Categories</h4>
+        <ul>
+          <li><a href="#">Folkore and Religion</a></li>
+          <li><a href="#">Folkore and Religion</a></li>
+          <li><a href="#">Folkore and Religion</a></li>
+          <li><a href="#">Folkore and Religion</a></li>
+          <li><a href="#">Folkore and Religion</a></li>
+        </ul>
+      </article>
+      <article>
+        <h4>Useful Links</h4>
+        <ul>
+          <li><a href="#">Folkore and Religion</a></li>
+          <li><a href="#">Folkore and Religion</a></li>
+          <li><a href="#">Folkore and Religion</a></li>
+          <li><a href="#">Folkore and Religion</a></li>
+          <li><a href="#">Folkore and Religion</a></li>
+        </ul>
+      </article>
+      <article>
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="#">Folkore and Religion</a></li>
+          <li><a href="#">Folkore and Religion</a></li>
+          <li><a href="#">Folkore and Religion</a></li>
+          <li><a href="#">Folkore and Religion</a></li>
+          <li><a href="#">Folkore and Religion</a></li>
+        </ul>
+      </article>
+    
+    </div>
+    <div class="footer__copyright">
+      <small>Copyright &copy; Back To My Roots.Inc</small>
+    </div>
+  </footer>
+
+
+  <!-- **************************Footer  ends**********************  -->
+
+  </body>
+<script src="/js/main.js"></script>
+</html>

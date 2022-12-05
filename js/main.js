@@ -19,3 +19,29 @@ const closeNav = () => {
 
 openNavBtn.addEventListener('click', openNav);
 closeNavBtn.addEventListener('click', closeNav);
+
+
+
+// Dashboard sidebar toggles
+const sidebar = document.querySelector('aside');
+const showSidebarBtn = document.querySelector('#show__sidebar-btn');
+
+
+const hideSidebarBtn = document.querySelector('#hide__sidebar-btn');
+
+
+// showing sidebar on small devices 
+const showSidebar = () => {
+  sidebar.style.left = '0';
+  showSidebarBtn.style.display = 'none';
+  hideSidebarBtn.style.display = 'inline-block';
+}
+// hiding sidebar on small devices 
+const hideSidebar = () => {
+  sidebar.style.left = '-100%';
+  showSidebarBtn.style.display = 'inline-block';
+  hideSidebarBtn.style.display = 'none';
+}
+
+showSidebarBtn.addEventListener('click', showSidebar);
+hideSidebarBtn.addEventListener('click', hideSidebar);

@@ -3,6 +3,7 @@
     --color-primary-light: #00C0F0;
     --color-primary-variant: #5854c7;
     --color-red: #da0f3f;
+    --color-yellow: #FFAD01;
     --color-red-light: hsl(346, 87%, 46%, 15%);
     --color-green: #00c476;
     --color-green-light: hsl(156, 100%, 38%, 15%);
@@ -155,7 +156,7 @@ nav button {
 
 .nav__profile ul {
     position: absolute;
-    top: 125%;
+    top: 140%;
     right: 0;
     display: flex;
     flex-direction: column;
@@ -293,7 +294,10 @@ footer {
 .footer__socials {
     margin-inline: auto;
     width: fit-content;
-    margin-bottom: 5rem;
+    /* margin-bottom: 2rem; */
+    /* margin-top: -4rem; */
+    margin: -4rem 0 2rem 8rem;
+    margin-left: 38%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -341,7 +345,7 @@ footer ul li {
     text-align: center;
     padding: 1.5rem 0;
     border-top: 2px solid var(--color-bg);
-    /* margin-top: 4rem; */
+    margin-top: 1rem;
 }
 
 
