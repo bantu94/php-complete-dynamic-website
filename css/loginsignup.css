@@ -70,11 +70,12 @@
     position: absolute;
     left: 10px;
     bottom: 50%;
-    transform: translateY(50%);
     -webkit-transform: translateY(50%);
     -moz-transform: translateY(50%);
     -ms-transform: translateY(50%);
     -o-transform: translateY(50%);
+    transform: translateY(50%);
+
 
     color: var(--color-primary-light);
 }
@@ -143,19 +144,21 @@
 }
 
 .submit input:hover {
-    filter: brightness(80%);
     -webkit-filter: brightness(80%);
+    filter: brightness(80%);
+
 }
 
 
 .submit i {
     position: absolute;
     top: 10%;
-    transform: translateY(50%);
     -webkit-transform: translateY(50%);
     -moz-transform: translateY(50%);
     -ms-transform: translateY(50%);
     -o-transform: translateY(50%);
+    transform: translateY(50%);
+
 
     right: 2rem;
     color: var(--color-white);
@@ -259,9 +262,22 @@
     flex-direction: column;
 
     gap: 2rem;
-    filter: brightness(100%);
     -webkit-filter: brightness(100%);
+    filter: brightness(100%);
+
 }
+
+.info__message h3 span {
+    color: var(--color-green);
+}
+
+.info__message h3 {
+    color: var(--color-yellow);
+}
+.info__message h5, p {
+    color: var(--color-yellow);
+}
+
 
 .intro__information h3 {
     font-family: 'poppins-bold';
@@ -281,9 +297,11 @@
 }
 
 .intro__information .info__message p span {
-    background: var(--color-green);
+    background: var(--color-red);
+    color: var(--color-white);
     padding: 0.5rem;
     font-weight: 600;
+    font-size: 1rem;
     border-radius: var(--border-radius-3);
 }
 
